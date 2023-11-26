@@ -1,0 +1,3 @@
+Colors used : #733D00 , #703C01 , #686868, #686868
+
+<div id="symbol_0" data-symbols="♡" data-hex="x2661" contenteditable="true" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="White Heart Suit Symbol">♡</div>

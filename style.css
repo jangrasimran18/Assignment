@@ -1,0 +1,233 @@
+<style>
+.hr{
+    color: grey;
+}
+    
+    body {
+      font-family: Montserrat-text;
+      margin: 0;
+      padding: 0;
+      margin-right: 90px;
+    }
+
+    .menu-bar {
+        margin-top: 10px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .menu-item {
+      color: grey;
+      text-decoration: none;
+      margin-right: -5px;
+      padding-right: 10px;
+      border-right: 1px solid white;
+      font-size: 15px;
+     
+    }
+
+    .menu-item:last-child {
+      border-right: none;
+      
+    }
+
+    .heart{
+        color: #733D00;
+        /* margin-bottom: 10px; */
+        margin-top: -60px;
+        display: block;
+        margin-left: 86%;
+        font-weight: normal;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+   
+    .product-container {
+      display: flex;
+      margin: 20px;
+    }
+
+    .product-images {
+      flex: 1;
+    }
+
+    .product-images img {
+      width: 78%;
+      height: 70%;
+      margin-bottom: 10px;
+      margin-left: 120px;
+    }
+
+    .product-details {
+      flex: 1;
+      padding-left: 20px;
+    }
+
+    .product-title {
+      font-size: 38px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color:  #733D00;
+    }
+    .Product-name{
+        color: #733D00;
+        font-weight: bold;
+       
+    }
+
+    .product-description {
+      margin-bottom: 10px;
+      color: grey;
+    }
+
+    .read-more {
+      color: grey;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .rating {
+      color: #733D00;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: grey;
+    }
+    .original-price{
+       
+        margin-right: 10px;
+        font-weight: bold;
+        color: grey;
+        font-size: 30px;
+    }
+    .discounted-price{
+        color:grey;
+        font-size: 15px;
+        text-decoration: line-through;
+    }
+    .DP{
+        color: #28a745;
+        font-size: 15px;
+        
+    }
+    .taxes{
+        color:#D8D9DA;
+        margin-left: 20px;
+    }
+
+    .offer {
+      color: #28a745;
+      font-weight: bold;
+    }
+
+    .color-options {
+      margin-bottom: 10px;
+      color: #686868;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .color-option {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+
+    .view-similar {
+      color: #B4B4B3;
+      margin-bottom: 10px;
+      margin-top: -20px;
+      display: block;
+      margin-left: 85%;
+      font-weight: normal;
+      font-size: 15px;
+    }
+
+    .select-size {
+      margin-bottom: 10px;
+      margin-right: 10px;
+      font-weight: bold;
+      color: #686868;
+      font-size: 18px;
+    }
+
+    .select-guide{
+        color: #B4B4B3;
+        margin-bottom: 10px;
+        margin-top: -20px;
+        display: block;
+        margin-left: 86%;
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+    .size-option {
+      margin-right: 10px;
+      border: 2px solid #D8D9DA;
+      padding: 5px ;
+      font-size: 13px;
+    }
+
+    
+    .buy-now-btn {
+      background-color: #733D00;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-right: 15px;
+      width: 250px;
+      text-align: center;
+    }
+    .add-to-cart-btn{
+        background-color: none;
+        color: #733D00;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2px solid #733D00;
+        display: inline-block;
+        margin-right: 60px;
+        border-color: #733D00;
+        font-weight: bold;
+        width: 250px;
+        text-align: center;
+       
+    }
+
+    .free-shipping,
+    .assured-quality,
+    .easy-return,
+    .safe-payment {
+      margin-top: 10px;
+      display: inline-block;
+      margin-right: 95px;
+      width: 500;
+      height: 200;
+      border: #686868;
+      color: grey;
+    }
+    .img{
+        width: 30px;
+        height: 20px;
+    }
+
+    .end{
+        text-align: right;
+        text-decoration: underline;
+        color: #733D00;
+        font-weight: bold;
+        margin-top: -150px;
+        margin-bottom: 0px;
+    }
+  </style>
